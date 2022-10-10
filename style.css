@@ -70,5 +70,31 @@ body{
     transform: translate(-50%, -50%);
     border-radius: 0.62em;
     box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
-    overflow-y: scroll;
+}
+.flag-img{
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #000;
+    border-radius: 6px;
+    padding: 5px;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+th{
+    background: linear-gradient(#606062, #28262b);
+    color: #ffffff;
+}
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #000;
+  }
+  
+tr:hover {
+    background-color: #555;
+    color: #ffffff;
 }
